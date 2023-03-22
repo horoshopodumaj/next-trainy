@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <Header />
             <main className={styles.main}>
                 <h1>Главная</h1>
+                <Link href="burgers">Все бургеры</Link>
             </main>
             <Footer />
         </>
