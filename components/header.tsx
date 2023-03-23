@@ -11,7 +11,7 @@ const Header = (props: Props) => {
                 <SiBurgerking />
             </div>
             <nav>
-                <Link href="home">Домой</Link>
+                <Link href="/">Домой</Link>
                 <Link href="about">О нас</Link>
                 <Link href="review">Отзывы</Link>
                 <Link href="burgers">Бургеры</Link>
