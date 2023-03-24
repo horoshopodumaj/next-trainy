@@ -1,8 +1,8 @@
-import React from "react";
+import React, { FC } from "react";
 
 type Props = {};
 
-const AboutPage = (props: Props) => {
+const AboutPage: FC = (props: Props) => {
     return (
         <div>
             <h1>О нас</h1>

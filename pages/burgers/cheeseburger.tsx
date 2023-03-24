@@ -1,8 +1,8 @@
-import React from "react";
+import React, { FC } from "react";
 
 type Props = {};
 
-const Cheeseburger = (props: Props) => {
+const Cheeseburger: FC = (props: Props) => {
     return (
         <div>
             <h1>Чизбургер</h1>
